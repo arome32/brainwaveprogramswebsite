@@ -1,0 +1,88 @@
+body {
+	background-color: black;
+}
+
+.pic0 {
+	/*border: 1px solid red;*/
+	right: 200px;
+
+}
+
+.pic1 {
+	/*border: 1px solid blue;*/
+	margin-top: 38px;
+	right: 200px;
+
+}
+.row1 {
+	margin: auto;
+}
+
+.nav-item{
+	/*border: 2px solid pink;	*/
+	margin: auto;
+}
+
+.navbar-nav{
+		/*border: 2px solid red;*/
+		width: 100%;	
+}
+
+
+.program_body{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+
+.program_name{
+	margin-top: 30px;
+	border-radius: 10px;
+	border: 5px solid #3F3F3F;
+	background-color: white;
+	text-align: center;
+}
+
+.name_row{
+	margin: auto;
+
+}
+
+.logo{
+	margin: auto;
+	float: right;
+}
+.p_name {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	float: left;
+
+}
+
+
+
+.price:before {
+	color: red;
+	height: 100px;
+	width: 100px;
+	content: "";
+}
+
+.program_details {
+	margin-top: 30px;
+	border-radius: 10px;
+	border: 5px solid #3F3F3F;
+	background-color: white;
+	text-align: center;
+}
+
+.payment_details {
+
+}
+
+.foot {
+	height: 300px;
+	width: 300px;
+	background-color: white;
+}
