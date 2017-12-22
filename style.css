@@ -26,6 +26,11 @@ body {
 	margin: 10px 10px 10px 10px;
 }
 
+.counter{
+	padding: 10px 50px 10px 10px;
+	margin: auto;
+}
+
 .card-text{
 	/*border: 2px solid pink;	*/
 
