@@ -1,0 +1,150 @@
+body {
+	background-color: black;
+	font-size: 20px;
+}
+
+.pic0 {
+	right: 200px;
+}
+
+.pic1 {
+	margin-top: 38px;
+	right: 200px;
+
+}
+.row1 {
+	margin: auto;
+}
+
+.nav-item{
+	margin: auto;
+}
+
+.navbar-nav{
+	width: 100%;	
+}
+
+.dropdown-menu > a{
+	color: lightgray;
+}
+
+
+.program_body{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+
+.program_name{
+	margin-top: 30px;
+	border-radius: 10px;
+	border: 5px solid #3F3F3F;
+	background-color: white;
+	text-align: center;
+	/*border: 2px solid blue;*/
+
+}
+
+.name_row{
+	margin: auto;
+
+}
+
+.logo{
+	margin: auto;
+	float: right;
+}
+.p_name {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	float: left;
+}
+
+.for_who {
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 3%;
+}
+
+.price:before {
+	color: red;
+	height: 100px;
+	width: 100px;
+	content: "";
+}
+
+.figure-img{
+	width: 70%;
+}
+
+.program_details {
+	margin-top: 30px;
+	border-radius: 10px;
+	border: 5px solid #3F3F3F;
+	background-color: white;
+	float: left;
+}
+
+.payment_details {
+	margin-top: 30px;
+	border-radius: 10px;
+	border: 5px solid #3F3F3F;
+	background-color: white;
+	text-align: center;
+	float: right;
+}
+.information{
+	/*border: 2px solid red;*/
+	align-self: center;
+	width: 100%;
+	margin: auto;
+}
+.foot{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+
+}
+
+.bottom_pic {
+	float: left;
+}
+
+.bottom_text{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
+
+.bottom_text2{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	margin: auto;
+	padding: 30px 0px 0px 150px; 
+}
+
+nav  a:hover{
+	color:lime !important;
+}
+
+.details{
+	width: 100%;
+	text-align: center;
+}
+
+.info{
+	/*border: 2px solid red;*/
+	/*margin-left: 75px;*/
+	text-align: center;
+    list-style-type: none;
+
+}
+
+.xtra{
+	position: absolute;
+	bottom: 0;
+}

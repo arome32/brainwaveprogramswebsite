@@ -1,0 +1,114 @@
+body {
+	background-color: black;
+	font-size: 20px;
+}
+
+.pic0 {
+	/*border: 1px solid red;*/
+	right: 200px;
+
+}
+
+.pic1 {
+	/*border: 1px solid blue;*/
+	margin-top: 38px;
+	right: 200px;
+
+}
+.row1 {
+	margin: auto;
+}
+
+.nav-item{
+	/*border: 2px solid pink;	*/
+	margin: auto;
+}
+
+.navbar-nav{
+		/*border: 2px solid red;*/
+		width: 100%;	
+}
+
+.dropdown-menu > a{
+	color: lightgray;
+}
+
+
+.program_body{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+
+.program_name{
+	margin-top: 30px;
+	border-radius: 10px;
+	border: 5px solid #3F3F3F;
+	background-color: white;
+	text-align: center;
+}
+
+.name_row{
+	margin: auto;
+
+}
+
+.logo{
+	margin: auto;
+	float: right;
+}
+.p_name {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	float: left;
+
+}
+
+
+
+.price:before {
+	color: red;
+	height: 100px;
+	width: 100px;
+	content: "";
+}
+
+.program_details {
+	margin-top: 30px;
+	border-radius: 10px;
+	border: 5px solid #3F3F3F;
+	background-color: white;
+	text-align: center;
+}
+
+.payment_details {
+
+}
+
+.foot{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+
+}
+
+.bottom_pic {
+	float: left;
+}
+
+.bottom_text{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
+
+.bottom_text2{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	margin: auto;
+	padding: 30px 0px 0px 150px; 
+}
