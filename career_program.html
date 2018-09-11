@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Template</title>
+	<title> The Brainwave Programs</title>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 
 	<!-- BOOTSTRAP CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/rollover.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="css/program3.css">
+	<link rel="stylesheet" type="text/css" href="css/program3.css" >
+	<style type="text/css">
+		#button_div{
+			background-image: url('images/button_reg.png');
+		}
+
+		#button_div:hover{
+			background-image: url('images/button_hov.png');
+		}
+
+		.main_details{
+			background: url("images/backgroundv1.png") center ;
+	        -webkit-background-size: cover;
+	        -moz-background-size: cover;
+	        -o-background-size: cover;
+	        background-size: cover;
+		}
+	</style>
 
 </head>
 <body>
+	<div class="container">
 	<!-- <div class="row row1"> -->
-	<img class="pic0" src="images/combined_header.jpg" width="100%" alt="">
+	<a class="phone" href="tel:289-271-2978" style="font-size: 20px"> (289) 271-2978 </a>
+	<img class="pic0" src="images/header_combined.png" width="100%" alt="">
 	<!-- </div> -->
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 	    	<span class="navbar-toggler-icon"></span>
 		</button>
@@ -27,40 +47,34 @@
 	      		<li class="nav-item">
 	        		<a class="nav-link" href="index.html">Home</a>
 	      		</li>
-	      		<li class="nav-item dropdown">
-	        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	        			Programs
-	        		</a>
-		        	<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-		          		<a class="dropdown-item bg-dark" href="brainwave_program1.html">Program 1</a>
-		          		<a class="dropdown-item bg-dark" href="brainwave_program2.html">Program 2</a>
-		          		<a class="dropdown-item bg-dark" href="career_program.html">Career Program</a>
-		        	</div>
-	      		</li>
+
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="blog.html">Blog</a>
+	        		<a class="nav-link" href="brainwave_program1.html">Program 1</a>	
 	      		</li>
+
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="book.html">Book</a>
+	        		<a class="nav-link" href="brainwave_program2.html">Program 2</a>
+	      		</li>
+
+	      		<li class="nav-item">
+	      			<a class="nav-link" href="career_program.html">Career Program</a>
 	      		</li>
 	      		<li class="nav-item">
 	        		<a class="nav-link" href="contact_us.html">Contact Us</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="about_us.html">About Us</a>
+	        		<a class="nav-link" href="who_we_are.html">Who We Are</a>
 	      		</li>
 	    	</ul>
 	  	</div>
 	</nav>
 
 
+
 	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="12000">
   		<div class="carousel-inner">
     		<div class="carousel-item active">
-      			<img class="d-block w-100" src="images/test1.jpg" alt="First slide">
-    		</div>
-    		<div class="carousel-item">
-      			<img class="d-block w-100" src="images/test2.jpg" alt="Second slide">
+      			<img class="d-block w-100" src="images/car_images/career.jpg" alt="First slide">
     		</div>
   		</div>
 	</div>
@@ -70,35 +84,212 @@
 
 	<div class="program_name">
 		<div class="row name_row">
-			<div class="col-md-9 one">
-				<h2 class="p_name">Career Program<sup>&copy;</sup></h2>
+			<div class="col-md-9">
+				<h2 class="p_name">The Brainwave Programs' Education Specialist Courses Levels I-IV<sup>&copy;</sup></h2>
 			</div>
-			<div class="col-md-3 one">
+			<div class="col-md-3">
 				<img src="images/program_logo.png" class="logo">
 			</div>
 		</div>
+	</div>
+
+	<div class="main_content row">
+		<div class="information col-lg-9 ">
+			<div class="main_details" id="c1">
+				<img class="logo_in" src="images/program_logo.png">
+				<p class="date">LEVEL I: MAY 31-JUNE 3, 2019</p>
+				<br>
+				<br>
+				<h4 class="for_who">Course Level I<sup>&copy;</sup></h4>
+				<br>
+				<h5><strong>"Setting Your Classroom and Private Practice in Motion"</strong></h5>
+				<br>
+				<div class="course_details">
+					<h5 style="text-align: center;">You will learn The Brainwave Programs' Brain Theory and Physiology, Part I</h5>
+						<ul>
+							<li>The brain's developmental stages, its anatomy and physiology.</li>
+							<li>The brain's health and environmental needs.</li>
+							<li>The causes of A.D.D., dyslexia, depression and anxiety.</li> 
+						</ul>
+					<br>
+					<h5 style="text-align: center;">You will learn about:</h5>
+					<ul style="list-style-type: none; text-align: center;">
+						<li><h5>The Brainwave Programs' Professional Assessment Process</h5></li>
+					</ul>
+					<ul>
+						<li>How to take your students'/clients' health, education and family history. </li>
+
+						<li>A comprehensive educational analysis based on the Gifford model, which tests
+						different intellectual processing abilities and is especially accurate in 
+						pinpointing areas that are underdeveloped as well as those that are gifted.
+						</li>
+	
+						<li> How to administer, score and analyze your students'/clients' test data.</li>
+					</ul>
+				</div>
+				<br>
+			</div>
 		
+
+			<div class="main_details" id="c2">
+				<img class="logo_in" src="images/program_logo.png">
+				<p class="date">LEVEL II: JULY 12-15, 2019</p>
+				<br>
+				<br>
+				<h4 class="for_who">Course Level II<sup>&copy;</sup></h4>
+				<br>
+				<h5><strong>"Developing Personal Learning Programs and Implementing Strategies"</strong></h5>
+				<br>
+				<div class="course_details">
+					<h5 style="text-align: center;">You will learn The Brainwave Programs' Brain Theory and Physiology, Part II</h5>
+					<br>
+					<h5 style="text-align: center;">You will learn how:</h5>
+					<ul>
+						<li>To determine where help is needed (neurological, physical and educational).</li>
+						<li>To use The Brainwave Programs exercises for improved concentration, memory,
+							communication, reading, spelling, math, comprehension and social interaction skills. 
+						</li>
+						<li>To coach participating adults to apply the individual child's program needs.</li>
+						<li>To design your students'/clients' programs to meet the province's/state's curriculum requirements.</li>
+						<li>To enable your students/clients to surpass their learning objectives.</li>
+					</ul>
+				</div>
+				<br>
+			</div>
+
+
+			<div class="main_details" id="c3">
+				<img class="logo_in" src="images/program_logo.png">
+				<p class="date">LEVEL III: AUGUST 17-19, 2019</p>
+				<br>
+				<br>
+				<h4 class="for_who">Course Level III<sup>&copy;</sup></h4>
+				<br>
+				<h5><strong>"Brain Function, Anti-Depressant Activities, and Adult Support Programs"</strong></h5>
+				<br>
+				<div class="course_details">
+					<h5 style="text-align: center;">You will learn The Brainwave Programs' Brain Theory and Physiology, Part III</h5>
+					<br>
+					<h5 style="text-align: center;">You will learn how:</h5>
+					<ul>
+						<li>Past trauma are directly circuited into the neurological system to create old unproductive habits, negative
+						mental states, depression, anxiety and phobias, as well as learning, concentration and memory problems.</li>
+						<li>You will become adept at overriding old neurological loops and witnessing the immediate personal changes 
+							that occur with proactive intervention</li>
+						<li>You will study current brain research publications that are at the core of The Brainwave Programs.</li>
+					</ul>
+				</div>
+				<br>
+			</div>
+
+
+			<div class="main_details" id="c4">
+				<img class="logo_in" src="images/program_logo.png">
+				<p class="date">LEVEL IV: (GRADUATION 2020) DATE TBA</p>
+				<br>
+				<br>
+				<h4 class="for_who">Course Level IV<sup>&copy;</sup></h4>
+				<br>
+				<h5><strong>"The Brainwave Programs for Neuro-Emotional Release<sup>&copy;</sup><br>and Recreating Your Professional Space or Classroom"</strong></h5>
+				<br>
+
+				<div style="width: 80%; margin: auto;">
+					<h5 style="text-align: center;">You will learn The Brainwave Programs' Brain Theory and Physiology, Part IV</h5>
+					<br>
+					<h5 style="text-align: center;">For the adult program, you will learn to use The Brainwave Programs for Neuro-Emotional<sup>&copy;</sup> 
+						technique to address clients' personal problems.</h5>
+				</div>
+				<div class="course_details">
+					<br>
+					<h5 style="text-align: center;">You will learn how:</h5>
+					<ul>
+						<li>To use The Brainwave Programs in the resource room, classroom or in private practice.</li>
+						<li>To learn effective ways to promote yourself</li>
+						<li>You will be taught the legal requirements of managing a private practice.</li>
+					</ul>
+				</div>
+				<br>
+			</div>
+
+			<div class="main_details" id="pre" style="font-size: 15px;">
+				<div class="container">
+					<br>
+					<br>
+					<h6><strong>Course Prerequisites</strong></h6>
+					<br>
+					<ol style="text-align: left;">
+						<li>Professional Education Specialist Training participants will be working in the education or health care fields currently.</li>
+						<li>A preliminary questionnaire and interview must be completed.</li>
+						<li>Established practitioners are not expected to participate in the interview process or in parts 2 and 3 of Course IV.</li>
+						<li>Participants will have taken or will be in the process of taking Brainwave Program 1 or 2.</li>
+						<li>The times for taking Brainwave Programs 1 or 2 will be arranged according to individual schedules.</li>
+						<li>For final certification, participants will have taken five clients through either Brainwave Programs 1 or 2.</li>
+					</ol>
+
+					<br>
+
+					<h6><strong>Course and Program Fees</strong></h6>
+					<br>
+					$1500.00 Canadian +HST per course.
+					<br><br>
+					<ol style="text-align: left;">
+						<li>A 50% non-refundable course fee is required 6 weeks prior to the course date. If registering after 6 weeks, the course is 75% non-refundable.</li>
+						<li>For those needing to reschedule, the complete payment may be automatically transferred to the new course date.</li>
+					</ol>
+					<ul style="list-style-type: none; text-align: left;">
+						<li>Program 1 (for students and their families): $3625.00 Canadian + HST</li>
+						<li>Program 2 (for adults): $2175.00 Canadian + HST. If 2 people take Program 2
+						together, they each receive a 25% discount off of their program fee which equals $1631.25 Canadian + HST.</li>
+						<br>
+						<li>To schedule courses in your area, a minimum of 10 course participants is required.<br>Please contact us by phone: <a href="tel:289-271-2978">(289) 271-2978</a> or by e. mail: 
+							<a href="mailto:inquires@brainwaveprograms.com">inquires@brainwaveprograms.com</a>.</li>
+						<br>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-lg-3 side_bar_holder">
+			<div align='center' id="side_bar_buttons" class="side_bar">				
+				<a href="contact_us.html">
+					<img src="images/side_bar/contact.png" border="0"  class="imgover" alt="Brainwave Programs Contact Information">
+				</a>
+
+				<a href="register.html">
+					<img src="images/side_bar/register.png" border="0"  class="imgover" alt="Brainwave Programs Contact Information">
+				</a>
+
+				<a href="faq.html">
+					<img src="images/side_bar/faq.png" border="0"  class="imgover" alt="Brainwave Programs Contact Information">
+				</a>
+
+				<a href="book.html">
+					<img src="images/side_bar/book.png" border="0"  class="imgover" alt="Brainwave Programs Contact Information">
+				</a>
+
+				<a href="blog.html">
+					<img src="images/side_bar/blog.png" border="0"  class="imgover" alt="Brainwave Programs Contact Information">
+				</a>
+
+				<a href="research.html">
+					<img src="images/side_bar/research.png" border="0"  class="imgover" alt="Brainwave Programs Contact Information">
+				</a>
+			</div>
+		</div>	
 	</div>
-
-
-	<div class="program_details">
-		
-	</div>
-
-	<div class="payment_details">
-		<span class="price"></span>
-	</div>
-
-
-
-
-
-
-
+	
+	<br>
 	<div class="foot">
 		<img class="bottom_pic" src="images/logo_bottom.jpg"  alt="">
-		<p class="bottom_text">Copyright 2009 Brainworks all rights reserved.</p>
+		<p class="bottom_text">Copyright 1984, 1993, 2006, 2009, 2017, 2018 Lynne Dorfman all rights reserved.</p>
 		<p class="bottom_text2">All text and/or graphics located within this site are the property of Jennifer Lynne Dorfman and Lynne Dorfman Learning Inc.<br>operating as Brainworks. No content of this web site may be used or copied without the written permission of the owners.</p>
 	</div>
+</div>
+
+<script src="vendor/jquery/jquery.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Custom JavaScript for this theme -->
+<script src="js/scrolling-nav.js"></script>
 </body>
 </html>

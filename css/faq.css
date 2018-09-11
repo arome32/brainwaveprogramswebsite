@@ -2,7 +2,78 @@
 body {
 	background-color: black;
 	font-size: 20px; 
+	font-family: verdana;
 }
+
+.phone{
+
+	/*border: 2px solid white;*/
+	position: absolute;
+	top: .5%;
+	right: 6%;
+	margin-bottom: 5px;
+	color: lime;	
+	pointer-events: none;
+   cursor: default;
+}
+
+.phone:hover{
+	color: lime; 
+}
+
+.img_holder{
+	background-color: #F0E68C;
+	margin-top: 25px;
+}
+
+.btn-success:hover{
+	background-color: #D8D8D8 !important;
+	text-decoration: underline;
+	text-decoration-color: blue;
+	color: darkblue;
+}
+
+.btn-success{
+	border-color: gray;
+	color: blue !important;
+}
+
+.btn-success:focus {
+  border-color: blue !important;
+}
+
+.faq_btn{
+	font-size: 90%;
+	background-color: #D8D8D8;
+	width: 100%;
+	color:  black;
+	/*height: 5em;*/
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	/*margin-right: 2%;*/
+	/*font-size: 12px;*/
+	white-space: normal;
+}
+
+.image{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	align-self: center;
+	max-height: 300px;
+	max-width: 800px;
+	margin: auto;
+	/*border: 2px solid red;*/
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container{
+	max-width: 90%;
+}
+
 .nav-item{
 	margin: auto;
 }
@@ -12,7 +83,7 @@ body {
 }
 
 .dropdown-menu > a{
-	color: lightgray;
+	color: white;
 }
 
 .foot{
@@ -47,6 +118,9 @@ nav a:hover{
 	color:lime !important;
 }
 
+nav  a{
+	color:white !important;
+}
 
 
 .title_box{
@@ -82,10 +156,14 @@ nav a:hover{
 .main_content{
 	margin: auto;
 	margin-top: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	border-radius: 10px;
 	border: 5px solid #3F3F3F;
 	background-color: white;
 	text-align: left;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 .out_of_town{
@@ -95,4 +173,8 @@ nav a:hover{
 .form-group .col-auto {
 	/*border: 2px solid green;*/
 	margin: auto;
+}
+
+.card-columns {
+	column-count: 4;
 }

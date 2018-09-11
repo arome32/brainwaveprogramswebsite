@@ -12,9 +12,10 @@
 
 
 	foreach ($_POST as $param_name => $param_val) {
-	    
 
-	      $message .= $param_name . ' : ' . $param_val; 
+              $updated = str_replace("_"," ", $param_name);
+
+	      $message .= $updated . ' : ' . $param_val; 
 	      $message .= "\n"; 
 	}
 	

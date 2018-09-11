@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Template</title>
+	<title> The Brainwave Programs</title>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 
@@ -9,15 +9,49 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
-	<link rel="stylesheet" type="text/css" href="css/program2.css">
+	<link rel="stylesheet" type="text/css" href="css/program1.css" >
+	<script type="text/javascript" src="js/rollover.js"></script>
+	<style type="text/css">
+		#button_div{
+			background-image: url('images/button_reg.png');
+		}
+
+		#button_div:hover{
+			background-image: url('images/button_hov.png');
+		}
+
+		.program_details{
+			background: url("images/backgroundv1.png") center ;
+	        background-size: cover;
+		}
+
+		.payment_details{
+			background: url("images/backgroundv1.png") center ;
+	        background-size: cover;
+		}
+
+		/*#play{
+			width: 29px;
+			height: 29px;
+			background-image: url('images/button_green.png');
+			background-repeat: no-repeat;
+
+		}
+
+		#button_div:hover > #play{
+			background-image: url('images/button_grey.png');
+		}*/
+	</style>
 
 </head>
 <body>
+	<div class="container">
 	<!-- <div class="row row1"> -->
-	<img class="pic0" src="images/combined_header.jpg" width="100%" alt="">
+	<a class="phone" href="tel:289-271-2978" style="font-size: 20px"> (289) 271-2978 </a>
+	<img class="pic0" src="images/header_combined.png" width="100%" alt="">
 	<!-- </div> -->
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 	    	<span class="navbar-toggler-icon"></span>
 		</button>
@@ -27,40 +61,40 @@
 	      		<li class="nav-item">
 	        		<a class="nav-link" href="index.html">Home</a>
 	      		</li>
-	      		<li class="nav-item dropdown">
-	        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	        			Programs
-	        		</a>
-		        	<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-		          		<a class="dropdown-item bg-dark" href="brainwave_program1.html">Program 1</a>
-		          		<a class="dropdown-item bg-dark" href="brainwave_program2.html">Program 2</a>
-		          		<a class="dropdown-item bg-dark" href="career_program.html">Career Program</a>
-		        	</div>
-	      		</li>
+
 	      		<li class="nav-item">
+	        		<a class="nav-link" href="brainwave_program1.html">Program 1</a>	
+	      		</li>
+
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="brainwave_program2.html">Program 2</a>
+	      		</li>
+
+	      		<li class="nav-item">
+	      			<a class="nav-link" href="career_program.html">Career Program</a>
+	      		</li>
+	      		<!-- <li class="nav-item">
 	        		<a class="nav-link" href="blog.html">Blog</a>
 	      		</li>
 	      		<li class="nav-item">
 	        		<a class="nav-link" href="book.html">Book</a>
 	      		</li>
-	      		<li class="nav-item">
+ -->	      		<li class="nav-item">
 	        		<a class="nav-link" href="contact_us.html">Contact Us</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="about_us.html">About Us</a>
+	        		<a class="nav-link" href="who_we_are.html">Who We Are</a>
 	      		</li>
 	    	</ul>
 	  	</div>
 	</nav>
 
 
+
 	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="12000">
   		<div class="carousel-inner">
     		<div class="carousel-item active">
-      			<img class="d-block w-100" src="images/test1.jpg" alt="First slide">
-    		</div>
-    		<div class="carousel-item">
-      			<img class="d-block w-100" src="images/test2.jpg" alt="Second slide">
+      			<img class="d-block w-100" src="images/car_images/program2.jpg" alt="First slide">
     		</div>
   		</div>
 	</div>
@@ -70,35 +104,101 @@
 
 	<div class="program_name">
 		<div class="row name_row">
-			<div class="col-md-9 one">
+			<div class="col-md-9">
 				<h2 class="p_name">Brainwave Program 2<sup>&copy;</sup></h2>
 			</div>
-			<div class="col-md-3 one">
+			<div class="col-md-3">
 				<img src="images/program_logo.png" class="logo">
 			</div>
 		</div>
+	</div>
+
+	<div class="main_content row ">
+		<div class="information col-lg-9 col-sm-12 ">
+			<div class="program_details">
+				<h4 class="for_who"><strong>For Adults with ADD, Learning Disabilities, Anxiety,<br> Depression or Emotional Discomfort</strong></h4><br>
+				<div class="details ">Participant's time investment over an approximate 6 month period is comprised of: </div>
+				<br>
+				<div class="container">
+					<ul class="info">
+						<li>30 minute, 4 times a week of Home Exercises</li>
+						<li>11 Office Visits, which include</li>
+						<li>A 4.5 hour initial assessment and educational analysis</li>
+						<li>3 hour basic training</li>
+						<li>9 personal appointments <br>(to customize and update program exercises according to individual progress)</li>
+					</ul>
+					<br>
+					<div style="text-align: center; padding-bottom: 20px;"><em>Complimentary written reports to professional agencies are available upon request</em></div>
+				</div>
+			</div>
 		
+
+			<div class="payment_details">
+				<h4 class="for_who">
+				</h4>
+				<div class="price container">
+					<h3><strong>Program 2</strong></h3>
+					<br>
+					<h5>If 2 people take Program 2 together, they each receive a 25% discount off of their program fee which makes the total &dollar;1631.25 Canadian + HST.</h5>
+					<br>
+					<figure class="figure">
+						<img src="images/program2Graph.jpg" class="figure-img img-fluid rounded" alt="">
+						<br><br>
+						<figcaption class="figure-caption"  style="color: black;">Invest in yourself today.
+						</figcaption>
+					</figure>
+					<p>&dollar;2175.00 Canadian + HST</p>
+					<br>
+					<div style="text-align: left;">
+						<p class="bull">A monthly payment plan with an initial six months non-refundable down payment is available</p>
+						<p class="bull">For out-of-town groups, families or individuals wishing to take their programs at a facility in their area, we require a minimum of five participating families or individuals plus the cost of expensives</p>
+						<p class="bull">For courses or programs requested outside of the Toronto area, we require a minimum of two months notice.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3 side_bar_holder">
+			<div align='center' id="side_bar_buttons" class="side_bar">				
+				<a href="contact_us.html">
+					<img src="images/side_bar/contact.png" border="0"  class="imgover" alt="Brainwave Programs Contact Information">
+				</a>
+
+				<a href="register.html">
+					<img src="images/side_bar/register.png" border="0"  class="imgover" alt="Brainwave Programs Contact Information">
+				</a>
+
+				<a href="faq.html">
+					<img src="images/side_bar/faq.png" border="0"  class="imgover" alt="Brainwave Programs Contact Information">
+				</a>
+
+				<a href="book.html">
+					<img src="images/side_bar/book.png" border="0"  class="imgover" alt="Brainwave Programs Contact Information">
+				</a>
+
+				<a href="blog.html">
+					<img src="images/side_bar/blog.png" border="0"  class="imgover" alt="Brainwave Programs Contact Information">
+				</a>
+
+				<a href="research.html">
+					<img src="images/side_bar/research.png" border="0"  class="imgover" alt="Brainwave Programs Contact Information">
+				</a>
+			</div>
+		</div>
 	</div>
-
-
-	<div class="program_details">
-		
-	</div>
-
-	<div class="payment_details">
-		<span class="price"></span>
-	</div>
+	
 
 
 
 
 
 
-
+	<br>
 	<div class="foot">
 		<img class="bottom_pic" src="images/logo_bottom.jpg"  alt="">
-		<p class="bottom_text">Copyright 2009 Brainworks all rights reserved.</p>
+		<p class="bottom_text">Copyright 1984, 1993, 2006, 2009, 2017, 2018 Lynne Dorfman all rights reserved.</p>
 		<p class="bottom_text2">All text and/or graphics located within this site are the property of Jennifer Lynne Dorfman and Lynne Dorfman Learning Inc.<br>operating as Brainworks. No content of this web site may be used or copied without the written permission of the owners.</p>
 	</div>
+</div>
 </body>
 </html>
